@@ -1,0 +1,4 @@
+FROM postgres:16
+ENV POSTGRES_USER=app_user
+ENV POSTGRES_PASSWORD=secret
+ENV POSTGRES_DB=translations
